@@ -14,3 +14,9 @@ pytest
 #run tests with Allure
 pytest --alluredir allure-results
 ```
+
+Settings file location: config/config.py
+
+To run your tests in Selenide cloud change:
+BROWSER_TYPE to 'cloud'
+SELENIDE_SERVER to URL of your selenide server in format "http://0.0.0.0:4444/wd/hub"
